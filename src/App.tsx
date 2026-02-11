@@ -92,20 +92,6 @@ function App() {
   return (
     <Box maxW="900px" mx="auto" p={{ base: 3, md: 6 }}>
       <VStack spacing={{ base: 4, md: 6 }} align="stretch">
-        {/* Titre */}
-        <Box textAlign="center" pb={2}>
-          <Text
-            fontSize={{ base: "xl", md: "2xl" }}
-            fontWeight="bold"
-            color="#212E40"
-          >
-            Calculateur Ratio Flash/Ambiance
-          </Text>
-          <Text fontSize="sm" color="gray.500">
-            Équilibrez votre flash avec la lumière ambiante
-          </Text>
-        </Box>
-
         {/* Slider principal */}
         <Box>
           <Flex justify="space-between" align="center" mb={2}>
